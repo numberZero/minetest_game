@@ -1,4 +1,4 @@
-Minetest Game mod: beds API
+Minetest Game mod: beds
 =======================
 See license.txt for license information.
 
@@ -7,11 +7,7 @@ Authors of source code
 Originally by BlockMen (MIT)
 Various Minetest developers and contributors (MIT)
 
-Authors of media (textures)
----------------------------
-BlockMen (CC BY-SA 3.0)
-
-This mod adds a bed to Minetest which allows to skip the night.
+This mod adds beds API to Minetest. A bed allows to skip the night.
 To sleep, rightclick the bed. If playing in singleplayer mode the night gets skipped
 immediately. If playing multiplayer you get shown how many other players are in bed too,
 if all players are sleeping the night gets skipped. The night skip can be forced if more
