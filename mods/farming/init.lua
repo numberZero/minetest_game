@@ -1,11 +1,8 @@
--- Global farming namespace
-farming = {}
-farming.path = minetest.get_modpath("farming")
+local modpath = minetest.get_modpath("farming")
 
 -- Load files
-dofile(farming.path .. "/api.lua")
-dofile(farming.path .. "/nodes.lua")
-dofile(farming.path .. "/hoes.lua")
+dofile(modpath .. "/nodes.lua")
+dofile(modpath .. "/hoes.lua")
 
 -- WHEAT
 farming.register_plant("farming:wheat", {
